@@ -1,9 +1,15 @@
 
+function sumStr(a,b) {
+if (a = ''){
+    var a = 0
+}
+if (b = ''){
+    var b = 0
+}
+var a = parseInt(a)
+var b = parseInt(b)
+var y = (a + b)
+return y.toString()
 
-var poketeam = ['onix', 'steelix', 'charmander', 'celebi', 'squirtle'];
-poketeam.length > 6;
-
-for (var p = poketeam.length-1; p > -1; p--){
-    console.log(poketeam[p]);
-} 
-
+}
+sumStr('', 5);
