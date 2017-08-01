@@ -1,0 +1,31 @@
+body{
+    background-image: url('https://media.giphy.com/media/BLocERYeKzcpW/giphy.gif');
+    background-size: cover;
+}
+#title{
+    color: red;
+    text-align: center;
+    background: black;
+}
+#toppics{
+    text-align: center;
+    padding: 0px 0px 0px 100px;
+    background: red;
+}
+#firstp{
+    text-align: center;
+    color:white;
+   
+        
+}
+    @media(max-width: 600px){
+        #toppics{
+        background: green;            
+        text-align: center;
+        padding: 0px 0px 50px 0px
+        }
+        #title{
+            text-align: center;
+        }
+    }
+    

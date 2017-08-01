@@ -2,4 +2,4 @@ function wello() {
     console.log('Wello, horld');
     return 'good';
 }
-wello();
+var result = wello();

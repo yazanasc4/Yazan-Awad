@@ -7,11 +7,13 @@ rectx = 290
 bally = 360
 var shoot = 2
 var xMove = -1
-var x = 0;
-var x = x
+var x=0
 rect1x = 400
 y1 = 50
 y2 = 100
+var speedx= 1;
+var speedy =25;
+
 // function alien(alien1, alien2, alien3, alien4, alien5, alien6, alien7, alien8){
 //     this.alien1 = rect(400 + x, 50, 25, 25);
 //     this.alien2 = rect(450 + x, 50, 25, 25);
@@ -23,21 +25,31 @@ y2 = 100
 //     this.alien8 = rect(550 + x, 100, 25, 25);
 
 // }
+// while(1>0){
+//     for(x <= -350){
+//         x--
+//     }
+// }
+var x= 0
 function draw(){
-    background('blue')
-    x--
-    if(x < -350){
-        x++
+    background('blue') 
+    x = x+speedx
+    if (x > 0 || x < -350) {
+    speedx = speedx *
+      -1;
+      y1 +=speedy
+      y2 += speedy
     }
-
-    rect(400 + x, y1, 25, 25);
-    rect(450 + x, y1, 25, 25);
-    rect(500 + x, y1, 25, 25);
-    rect(550 + x, y1, 25, 25);
-    rect(400 + x, y2, 25, 25);
-    rect(450 + x, y2, 25, 25);
-    rect(500 + x, y2, 25, 25);
-    rect(550 + x, y2, 25, 25);
+    
+    
+    rect(400 + x, y1 - 50, 25, 25);
+    rect(450 + x, y1 - 50, 25, 25);
+    rect(500 + x, y1 - 50, 25, 25);
+    rect(550 + x, y1 - 50, 25, 25);
+    rect(400 + x, y2 - 50, 25, 25);
+    rect(450 + x, y2 - 50, 25, 25);
+    rect(500 + x, y2 - 50, 25, 25);
+    rect(550 + x, y2 - 50, 25, 25);
     fill('green')
     rect(rectx, 350, 20, 40)
     fill('red')

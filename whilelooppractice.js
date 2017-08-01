@@ -5,5 +5,5 @@ console.log(i);
 var j = 0;
 while (j < 10){
 
-    j++
+    j++;
 }
