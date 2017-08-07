@@ -1,0 +1,22 @@
+body {
+    background: url('https://68.media.tumblr.com/0d39d630167855a2fd292daffe963dcf/tumblr_nl9nl46eFH1uo0bo4o1_500.gif');
+    background-size: cover;
+}
+h1{
+    color: red;
+}
+#chance{
+    padding: 0px 0px 150px 150px;
+    display: inline;
+}
+#travis{
+    display:inline;
+    padding: 0px 0px 150px 150px;
+}
+#kendrick{
+     display:inline;
+    padding: 0px 0px 150px 150px;
+}
+a{
+        color:orange;
+}

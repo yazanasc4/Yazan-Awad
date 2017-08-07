@@ -1,10 +1,9 @@
-function rockBottom(arr) {
-for(i=0; i<arr.length; i++){
-
-if(arr([i]) =' '){
-arr[i]= 'PLHHH';
-
+function newYorker(text) {
+var myguy = ' my guy'
+for(var i=0; i<text.length;i++){
+if(text.substr(i) = '.'){
+text.substr(i) = myguy + text.substr(i);
 }
-return arr;
+return text;
 }
 }
